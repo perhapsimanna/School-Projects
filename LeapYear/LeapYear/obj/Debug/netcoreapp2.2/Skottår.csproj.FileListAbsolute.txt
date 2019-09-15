@@ -1,0 +1,11 @@
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.csprojAssemblyReference.cache
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.csproj.CoreCompileInputs.cache
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.AssemblyInfoInputs.cache
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.AssemblyInfo.cs
+D:\dev\Skottår\Skottår\bin\Debug\netcoreapp2.2\Skottår.deps.json
+D:\dev\Skottår\Skottår\bin\Debug\netcoreapp2.2\Skottår.runtimeconfig.json
+D:\dev\Skottår\Skottår\bin\Debug\netcoreapp2.2\Skottår.runtimeconfig.dev.json
+D:\dev\Skottår\Skottår\bin\Debug\netcoreapp2.2\Skottår.dll
+D:\dev\Skottår\Skottår\bin\Debug\netcoreapp2.2\Skottår.pdb
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.dll
+D:\dev\Skottår\Skottår\obj\Debug\netcoreapp2.2\Skottår.pdb

@@ -1,0 +1,11 @@
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\bin\Debug\netcoreapp2.2\UdemyExercises.deps.json
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\bin\Debug\netcoreapp2.2\UdemyExercises.runtimeconfig.json
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\bin\Debug\netcoreapp2.2\UdemyExercises.runtimeconfig.dev.json
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\bin\Debug\netcoreapp2.2\UdemyExercises.dll
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\bin\Debug\netcoreapp2.2\UdemyExercises.pdb
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.csprojAssemblyReference.cache
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.csproj.CoreCompileInputs.cache
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.AssemblyInfoInputs.cache
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.AssemblyInfo.cs
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.dll
+C:\Users\lindq\source\repos\UdemyExercises\UdemyExercises\obj\Debug\netcoreapp2.2\UdemyExercises.pdb

@@ -1,0 +1,11 @@
+C:\Users\lindq\source\repos\Square\Square\bin\Debug\netcoreapp2.2\Square.deps.json
+C:\Users\lindq\source\repos\Square\Square\bin\Debug\netcoreapp2.2\Square.runtimeconfig.json
+C:\Users\lindq\source\repos\Square\Square\bin\Debug\netcoreapp2.2\Square.runtimeconfig.dev.json
+C:\Users\lindq\source\repos\Square\Square\bin\Debug\netcoreapp2.2\Square.dll
+C:\Users\lindq\source\repos\Square\Square\bin\Debug\netcoreapp2.2\Square.pdb
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.csprojAssemblyReference.cache
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.csproj.CoreCompileInputs.cache
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.AssemblyInfoInputs.cache
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.AssemblyInfo.cs
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.dll
+C:\Users\lindq\source\repos\Square\Square\obj\Debug\netcoreapp2.2\Square.pdb
