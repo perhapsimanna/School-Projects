@@ -1,0 +1,6 @@
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\bin\Debug\netstandard2.0\PhotoShopLite.deps.json
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\bin\Debug\netstandard2.0\PhotoShopLite.dll
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.csprojAssemblyReference.cache
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.csproj.CoreCompileInputs.cache
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfoInputs.cache
+C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfo.cs
