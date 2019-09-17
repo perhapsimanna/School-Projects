@@ -11,7 +11,7 @@ namespace PhotoShopLite
         }
 
 
-        public void TransformPictureFromOrigialToNegative()
+        public Bitmap TransformPictureFromOrigialToNegative()
         {
             Bitmap inputImage = new Bitmap(InputImage);
 
@@ -36,7 +36,7 @@ namespace PhotoShopLite
                     inputImage.SetPixel(x, y, Color.FromArgb(a, r, g, b));
                 }
             }
-            inputImage.Save("");
+            return inputImage;
 
         }
 

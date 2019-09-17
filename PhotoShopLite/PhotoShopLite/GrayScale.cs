@@ -12,7 +12,7 @@ namespace PhotoShopLite
         }
 
 
-        public void TransformPictureFromOrigialToGrayScale()
+        public Bitmap TransformPictureFromOrigialToGrayScale()
         {
             Bitmap inputImage = new Bitmap(InputImage);
 
@@ -38,7 +38,7 @@ namespace PhotoShopLite
 
             }
 
-            inputImage.Save("Save Image with GRAYSCALE in name");
+            return inputImage;
 
 
 
