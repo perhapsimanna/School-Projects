@@ -801,35 +801,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/anna/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\lindq\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/ImageManipulationInConsoleApp/ImageManipulationInConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\ImageManipulationInConsoleApp\\ImageManipulationInConsoleApp.csproj",
       "projectName": "ImageManipulationInConsoleApp",
-      "projectPath": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/ImageManipulationInConsoleApp/ImageManipulationInConsoleApp.csproj",
-      "packagesPath": "/Users/anna/.nuget/packages/",
-      "outputPath": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/ImageManipulationInConsoleApp/obj/",
+      "projectPath": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\ImageManipulationInConsoleApp\\ImageManipulationInConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\lindq\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\ImageManipulationInConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/anna/.config/NuGet/NuGet.Config"
+        "C:\\Users\\lindq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/PhotoShopLite/PhotoShopLite.csproj": {
-              "projectPath": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/PhotoShopLite/PhotoShopLite.csproj"
+            "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj": {
+              "projectPath": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj"
             }
           }
         }
@@ -844,6 +846,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

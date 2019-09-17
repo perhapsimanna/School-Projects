@@ -1,5 +1,6 @@
-﻿using System;
-
+﻿using PhotoShopLite;
+using System;
+using System.Drawing;
 
 namespace ImageManipulationInConsoleApp
 {
@@ -7,11 +8,10 @@ namespace ImageManipulationInConsoleApp
     {
         static void Main(string[] args)
         {
+           
+
 
             
-
-
-
         }
     }
 }

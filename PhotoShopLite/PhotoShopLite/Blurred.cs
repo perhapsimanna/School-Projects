@@ -4,9 +4,11 @@ using System.Drawing;
 namespace PhotoShopLite
 {
 
+   
     public class Blurred
     {
-        public Bitmap InputImage { get; }
+
+        public Bitmap InputImage;
         public Blurred(Bitmap inputImage)
         {
             InputImage = inputImage;
@@ -14,17 +16,18 @@ namespace PhotoShopLite
 
         public Bitmap BlurredImage()
         {
-            Bitmap blurredImage = new Bitmap(InputImage);
+             
+        Bitmap blurredImage = new Bitmap(InputImage);
 
-            int BlurKernelSize = 5;
-            float Avg = (float)1 / BlurKernelSize;
+            int kernelSize = 5;
+            float Avg = (float)1 / kernelSize;
 
             for (int h = 0; h < InputImage.Height; h++)
             {
                 float[] hSum = new float[] { 0f, 0f, 0f, 0f };
                 float[] hAvg = new float[] { 0f, 0f, 0f, 0f };
 
-                for (int x = 0; x < BlurKernelSize; x++)
+                for (int x = 0; x < kernelSize; x++)
                 {
                     Color tmpColor = InputImage.GetPixel(x, h);
                     hSum[0] += tmpColor.A;
@@ -40,16 +43,16 @@ namespace PhotoShopLite
 
                 for (int w = 0; w < InputImage.Width; w++)
                 {
-                    if ((w - BlurKernelSize / 2 >= 0 && w + 1 + BlurKernelSize / 2 < InputImage.Width))
+                    if ((w - kernelSize / 2 >= 0 && w + 1 + kernelSize / 2 < InputImage.Width))
                     {
-                        Color tmp_pColor = InputImage.GetPixel(w - BlurKernelSize / 2, h);
+                        Color tmp_pColor = InputImage.GetPixel(w - kernelSize / 2, h);
 
                         hSum[0] -= tmp_pColor.A;
                         hSum[1] -= tmp_pColor.R;
                         hSum[2] -= tmp_pColor.G;
                         hSum[3] -= tmp_pColor.B;
 
-                        Color tmp_nColor = InputImage.GetPixel(w + 1 + BlurKernelSize / 2, h);
+                        Color tmp_nColor = InputImage.GetPixel(w + 1 + kernelSize / 2, h);
 
                         hSum[0] += tmp_nColor.A;
                         hSum[1] += tmp_nColor.R;
