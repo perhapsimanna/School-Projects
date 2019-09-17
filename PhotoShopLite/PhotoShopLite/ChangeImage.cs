@@ -5,10 +5,16 @@ namespace PhotoShopLite
 {
     public class NegativeImage
     {
-
-        public void TransformPictureFromOrigialToNegative()
+        public Bitmap InputImage { get; }
+        public NegativeImage(Bitmap inputImage)
         {
-            Bitmap inputImage = new Bitmap("Read image");
+            InputImage = inputImage;
+        }
+
+
+    public void TransformPictureFromOrigialToNegative()
+        {
+            Bitmap inputImage = new Bitmap(InputImage);
 
             int inputImageWidth = inputImage.Width;
             int inputImageHeight = inputImage.Height;
@@ -31,7 +37,7 @@ namespace PhotoShopLite
                     inputImage.SetPixel(x, y, Color.FromArgb(a, r, g, b));
                 }
             }
-            inputImage.Save(//traget location with the name NEGATIVE in it)
+            inputImage.Save("");
 
         }
 
@@ -39,9 +45,17 @@ namespace PhotoShopLite
 
     public class GrayScale
     {
+
+        public Bitmap InputImage { get; }
+        public GrayScale(Bitmap inputImage)
+        {
+            InputImage = inputImage;
+        }
+
+
         public void TransformPictureFromOrigialToGrayScale()
         {
-            Bitmap inputImage = new Bitmap("Read Image");
+            Bitmap inputImage = new Bitmap(InputImage);
 
             int inputImageWidth = inputImage.Width;
             int inputImageHeight = inputImage.Height;
@@ -73,6 +87,8 @@ namespace PhotoShopLite
 
 
     }
+
+
 
 
 }

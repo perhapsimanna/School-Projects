@@ -222,30 +222,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lindq\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/anna/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lindq\\source\\repos\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
+      "projectUniqueName": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/PhotoShopLite/PhotoShopLite.csproj",
       "projectName": "PhotoShopLite",
-      "projectPath": "C:\\Users\\lindq\\source\\repos\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
-      "packagesPath": "C:\\Users\\lindq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lindq\\source\\repos\\PhotoShopLite\\PhotoShopLite\\obj\\",
+      "projectPath": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/PhotoShopLite/PhotoShopLite.csproj",
+      "packagesPath": "/Users/anna/.nuget/packages/",
+      "outputPath": "/Users/anna/Documents/GitHub/School-Projects/PhotoShopLite/PhotoShopLite/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lindq\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/anna/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
