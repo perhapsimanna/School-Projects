@@ -1,14 +1,18 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="PhotoShopLite/ChangeImage.cs">
+﻿<Properties StartupConfiguration="{A01D1B43-D07C-4A1D-9D3D-10197008887E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhotoShopLite/NegativeImage.cs">
     <Files>
-      <File FileName="PhotoShopLite/ChangeImage.cs" Line="11" Column="16" />
+      <File FileName="PhotoShopLite/ChangeImage.cs" Line="15" Column="1" />
+      <File FileName="ImageManipulationInConsoleApp/Program.cs" Line="12" Column="1" />
+      <File FileName="PhotoShopLite/GrayScale.cs" Line="41" Column="31" />
+      <File FileName="PhotoShopLite/NegativeImage.cs" Line="22" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PhotoShopLite" expanded="True">
+            <Node name="ImageManipulationInConsoleApp" expanded="True" />
             <Node name="PhotoShopLite" expanded="True">
-              <Node name="ChangeImage.cs" selected="True" />
+              <Node name="NegativeImage.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -17,6 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ImageManipulationInConsoleApp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

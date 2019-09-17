@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoShopLite", "PhotoShopLite\PhotoShopLite.csproj", "{3C231AB3-187B-4132-9891-4C24FBE093AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageManipulationInConsoleApp", "ImageManipulationInConsoleApp\ImageManipulationInConsoleApp.csproj", "{A01D1B43-D07C-4A1D-9D3D-10197008887E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3C231AB3-187B-4132-9891-4C24FBE093AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C231AB3-187B-4132-9891-4C24FBE093AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C231AB3-187B-4132-9891-4C24FBE093AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01D1B43-D07C-4A1D-9D3D-10197008887E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01D1B43-D07C-4A1D-9D3D-10197008887E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01D1B43-D07C-4A1D-9D3D-10197008887E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01D1B43-D07C-4A1D-9D3D-10197008887E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
