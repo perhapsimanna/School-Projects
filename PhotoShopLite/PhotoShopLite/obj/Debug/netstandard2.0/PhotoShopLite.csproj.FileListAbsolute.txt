@@ -4,3 +4,12 @@ C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0
 C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.csproj.CoreCompileInputs.cache
 C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfoInputs.cache
 C:\Users\lindq\source\repos\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfo.cs
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\bin\Debug\netstandard2.0\PhotoShopLite.deps.json
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\bin\Debug\netstandard2.0\PhotoShopLite.dll
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\bin\Debug\netstandard2.0\PhotoShopLite.pdb
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.csprojAssemblyReference.cache
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.csproj.CoreCompileInputs.cache
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfoInputs.cache
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.AssemblyInfo.cs
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.dll
+C:\Users\90annlin\Documents\GitHub\School-Projects\PhotoShopLite\PhotoShopLite\obj\Debug\netstandard2.0\PhotoShopLite.pdb

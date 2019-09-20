@@ -6,14 +6,7 @@ namespace PhotoShopLite
 
    
     public class Blurred
-    {
-
-        public Bitmap InputImage;
-        public Blurred(Bitmap inputImage)
-        {
-            InputImage = inputImage;
-        }
-
+    { 
         public Bitmap BlurredImage()
         {
              
