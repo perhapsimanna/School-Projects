@@ -1,6 +1,7 @@
 ﻿using PhotoShopLite;
 using System;
 using System.Drawing;
+using System.IO;
 
 namespace ImageManipulationInConsoleApp
 {
@@ -9,7 +10,9 @@ namespace ImageManipulationInConsoleApp
         static void Main(string[] args)
         {
             Console.Write("Input your path to the picture you want to alternate here: ");
-            var inputPath = (Bitmap)Image.FromFile(Console.ReadLine()); 
+            var inputPath = (Bitmap)Image.FromFile(Console.ReadLine());
+            var savePath = Path.GetFileNameWithoutExtension(inputPath.ToString);
+
             Bitmap inputPicture = new Bitmap(inputPath);
             Bitmap inputPicture1 = new Bitmap(inputPath);
             Bitmap inputPicture2 = new Bitmap(inputPath);
