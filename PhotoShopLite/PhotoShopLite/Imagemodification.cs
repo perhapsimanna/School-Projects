@@ -1,14 +1,23 @@
 ﻿using System.Drawing;
+using System.IO;
 
 namespace PhotoShopLite
 {
     public class ImageModification
     {
-       
-        public static Bitmap MakeNegativePicture(Bitmap imageSource)
+        public static string GetInputPath(string path, string imageModificationName)
+        {
+            var savePath = Path.GetDirectoryName(path);
+            var saveName = Path.GetFileNameWithoutExtension(path);
+            var saveExtension = Path.GetExtension(path);
+            var combinding = Path.Combine(savePath + saveName + imageModificationName + saveExtension);
+            return combinding;
+        }
+        public static void MakeNegativePicture(Bitmap imageSource)
         {
             Bitmap refrenceImageNegative = imageSource;
-
+            
+                        
             int inputImageWidth = refrenceImageNegative.Width;
             int inputImageHeight = refrenceImageNegative.Height;
 
@@ -30,11 +39,11 @@ namespace PhotoShopLite
                     refrenceImageNegative.SetPixel(x, y, Color.FromArgb(a, r, g, b));
                 }
             }
-            return refrenceImageNegative;
+            refrenceImageNegative.Save(ImageModification.GetInputPath(det ska finnas en stäng här, "_NEGATIVE"));
 
         }
 
-        public static Bitmap MakeBlurredPicture(Bitmap imageSource)
+        public static void MakeBlurredPicture(Bitmap imageSource)
         {
 
             Bitmap refrenceImageBlurred = imageSource;
@@ -88,10 +97,10 @@ namespace PhotoShopLite
                     refrenceImageBlurred.SetPixel(w, h, Color.FromArgb((int)hAvg[0], (int)hAvg[1], (int)hAvg[2], (int)hAvg[3]));
                 }
             }
-            return refrenceImageBlurred;
+            refrenceImageBlurred.Save(@"C:\Users\90annlin\Downloads\Gramse_BLURRED.jpg");
         }
 
-        public static Bitmap MakeGrayscalePicture(Bitmap imageSource)
+        public static void MakeGrayscalePicture(Bitmap imageSource)
         {
             Bitmap refrenceImageGrayscale = imageSource;
 
@@ -116,9 +125,7 @@ namespace PhotoShopLite
                 }
 
             }
-
-            return refrenceImageGrayscale;
-
+            refrenceImageGrayscale.Save(@"C:\Users\90annlin\Downloads\Gramse_GRAYSCALE.jpg");
 
 
         }
