@@ -14,9 +14,7 @@ namespace ImageManipulationInConsoleApp
             var inputImage = Image.FromFile(inputPath);
             //var inputImageWidth = inputPath.Length;
             //var inputImageHeight = inputImage.Height;
-            var minSize = 300 * 300;
-            var maxSize = 1920 * 1080;
-            
+                       
             if (inputPath == null)
             {
                 Console.WriteLine("You need to input a path to a picture! Try again!");
