@@ -10,13 +10,14 @@ namespace PhotoShopLite
             var savePath = Path.GetDirectoryName(path);
             var saveName = Path.GetFileNameWithoutExtension(path);
             var saveExtension = Path.GetExtension(path);
-            var combinding = Path.Combine(savePath + saveName + imageModificationName + saveExtension);
+            var separator = Path.DirectorySeparatorChar;
+            var combinding = Path.Combine(savePath + separator + saveName + imageModificationName + saveExtension);
             return combinding;
         }
-        public static void MakeNegativePicture(Bitmap imageSource)
+        public static void MakeNegativePicture(Bitmap imageSource, string path)
         {
             Bitmap refrenceImageNegative = imageSource;
-            
+            var pathSorce = GetInputPath(path, "_NEGATIVE");
                         
             int inputImageWidth = refrenceImageNegative.Width;
             int inputImageHeight = refrenceImageNegative.Height;
@@ -25,31 +26,33 @@ namespace PhotoShopLite
             {
                 for (int x = 0; x < inputImageWidth; x++)
                 {
-                    Color pixelValue = refrenceImageNegative.GetPixel(x, y);
+                    Color pixelvalue = refrenceImageNegative.GetPixel(x, y);
 
-                    int a = pixelValue.A;
-                    int r = pixelValue.R;
-                    int g = pixelValue.G;
-                    int b = pixelValue.B;
+                    int alpha = pixelvalue.A;
+                    int red = pixelvalue.R;
+                    int green = pixelvalue.G;
+                    int blue = pixelvalue.B;
 
-                    r = 255 - r;
-                    g = 255 - g;
-                    b = 255 - b;
+                    red = 255 - red;
+                    green = 255 - green;
+                    blue = 255 - blue;
 
-                    refrenceImageNegative.SetPixel(x, y, Color.FromArgb(a, r, g, b));
+                    refrenceImageNegative.SetPixel(x, y, Color.FromArgb(alpha, red, green, blue));
                 }
             }
-            refrenceImageNegative.Save(ImageModification.GetInputPath(det ska finnas en stäng här, "_NEGATIVE"));
+            refrenceImageNegative.Save(pathSorce);
 
         }
 
-        public static void MakeBlurredPicture(Bitmap imageSource)
+        public static void MakeBlurredPicture(Bitmap imageSource, string path)
         {
 
             Bitmap refrenceImageBlurred = imageSource;
+            var pathSorce = GetInputPath(path, "_BLURRED");
+
 
             int kernelSize = 5;
-            float Avg = (float)1 / kernelSize;
+            float avg = (float)1 / kernelSize;
 
             for (int h = 0; h < refrenceImageBlurred.Height; h++)
             {
@@ -65,10 +68,10 @@ namespace PhotoShopLite
                     hSum[3] += tmpColor.B;
                 }
 
-                hAvg[0] = hSum[0] * Avg;
-                hAvg[1] = hSum[1] * Avg;
-                hAvg[2] = hSum[2] * Avg;
-                hAvg[3] = hSum[3] * Avg;
+                hAvg[0] = hSum[0] * avg;
+                hAvg[1] = hSum[1] * avg;
+                hAvg[2] = hSum[2] * avg;
+                hAvg[3] = hSum[3] * avg;
 
                 for (int w = 0; w < refrenceImageBlurred.Width; w++)
                 {
@@ -88,21 +91,22 @@ namespace PhotoShopLite
                         hSum[2] += tmp_nColor.G;
                         hSum[3] += tmp_nColor.B;
 
-                        hAvg[0] = hSum[0] * Avg;
-                        hAvg[1] = hSum[1] * Avg;
-                        hAvg[2] = hSum[2] * Avg;
-                        hAvg[3] = hSum[3] * Avg;
+                        hAvg[0] = hSum[0] * avg;
+                        hAvg[1] = hSum[1] * avg;
+                        hAvg[2] = hSum[2] * avg;
+                        hAvg[3] = hSum[3] * avg;
                     }
 
                     refrenceImageBlurred.SetPixel(w, h, Color.FromArgb((int)hAvg[0], (int)hAvg[1], (int)hAvg[2], (int)hAvg[3]));
                 }
             }
-            refrenceImageBlurred.Save(@"C:\Users\90annlin\Downloads\Gramse_BLURRED.jpg");
+            refrenceImageBlurred.Save(pathSorce);
         }
 
-        public static void MakeGrayscalePicture(Bitmap imageSource)
+        public static void MakeGrayscalePicture(Bitmap imageSource, string path)
         {
             Bitmap refrenceImageGrayscale = imageSource;
+            var pathSorce = GetInputPath(path, "_GRAYSCALE");
 
             int inputImageWidth = refrenceImageGrayscale.Width;
             int inputImageHeight = refrenceImageGrayscale.Height;
@@ -113,19 +117,19 @@ namespace PhotoShopLite
                 {
                     Color pixelValue = refrenceImageGrayscale.GetPixel(x, y);
 
-                    int a = pixelValue.A;
-                    int r = pixelValue.R;
-                    int g = pixelValue.G;
-                    int b = pixelValue.B;
+                    int alpha = pixelValue.A;
+                    int red = pixelValue.R;
+                    int green = pixelValue.G;
+                    int blue = pixelValue.B;
 
-                    int averagePixelValue = (r + g + b) / 3;
+                    int averagePixelvalue = (red + green + blue) / 3;
 
-                    refrenceImageGrayscale.SetPixel(x, y, Color.FromArgb(a, averagePixelValue, averagePixelValue, averagePixelValue));
+                    refrenceImageGrayscale.SetPixel(x, y, Color.FromArgb(alpha, averagePixelvalue, averagePixelvalue, averagePixelvalue));
 
                 }
 
             }
-            refrenceImageGrayscale.Save(@"C:\Users\90annlin\Downloads\Gramse_GRAYSCALE.jpg");
+            refrenceImageGrayscale.Save(pathSorce);
 
 
         }
