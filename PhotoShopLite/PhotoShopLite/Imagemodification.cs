@@ -11,13 +11,13 @@ namespace PhotoShopLite
             var saveName = Path.GetFileNameWithoutExtension(path);
             var saveExtension = Path.GetExtension(path);
             var separator = Path.DirectorySeparatorChar;
-            var combinding = Path.Combine(savePath + separator + saveName + imageModificationName + saveExtension);
-            return combinding;
+            var combining = Path.Combine(savePath + separator + saveName + imageModificationName + saveExtension);
+            return combining;
         }
         public static void MakeNegativePicture(Bitmap imageSource, string path)
         {
             Bitmap refrenceImageNegative = imageSource;
-            var pathSorce = GetInputPath(path, "_NEGATIVE");
+            var newPath = GetInputPath(path, "_NEGATIVE");
                         
             int inputImageWidth = refrenceImageNegative.Width;
             int inputImageHeight = refrenceImageNegative.Height;
@@ -40,16 +40,13 @@ namespace PhotoShopLite
                     refrenceImageNegative.SetPixel(x, y, Color.FromArgb(alpha, red, green, blue));
                 }
             }
-            refrenceImageNegative.Save(pathSorce);
-
+            refrenceImageNegative.Save(newPath);
         }
 
         public static void MakeBlurredPicture(Bitmap imageSource, string path)
         {
-
             Bitmap refrenceImageBlurred = imageSource;
-            var pathSorce = GetInputPath(path, "_BLURRED");
-
+            var newPath = GetInputPath(path, "_BLURRED");
 
             int kernelSize = 5;
             float avg = (float)1 / kernelSize;
@@ -100,13 +97,13 @@ namespace PhotoShopLite
                     refrenceImageBlurred.SetPixel(w, h, Color.FromArgb((int)hAvg[0], (int)hAvg[1], (int)hAvg[2], (int)hAvg[3]));
                 }
             }
-            refrenceImageBlurred.Save(pathSorce);
+            refrenceImageBlurred.Save(newPath);
         }
 
         public static void MakeGrayscalePicture(Bitmap imageSource, string path)
         {
             Bitmap refrenceImageGrayscale = imageSource;
-            var pathSorce = GetInputPath(path, "_GRAYSCALE");
+            var newPath = GetInputPath(path, "_GRAYSCALE");
 
             int inputImageWidth = refrenceImageGrayscale.Width;
             int inputImageHeight = refrenceImageGrayscale.Height;
@@ -125,16 +122,10 @@ namespace PhotoShopLite
                     int averagePixelvalue = (red + green + blue) / 3;
 
                     refrenceImageGrayscale.SetPixel(x, y, Color.FromArgb(alpha, averagePixelvalue, averagePixelvalue, averagePixelvalue));
-
                 }
-
             }
-            refrenceImageGrayscale.Save(pathSorce);
-
-
+            refrenceImageGrayscale.Save(newPath);
         }
-
-
     }
 
 

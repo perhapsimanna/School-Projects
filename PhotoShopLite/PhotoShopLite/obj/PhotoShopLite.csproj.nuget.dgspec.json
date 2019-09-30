@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\90annlin\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj": {}
+    "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\90annlin\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj": {
+    "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90annlin\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
+        "projectUniqueName": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
         "projectName": "PhotoShopLite",
-        "projectPath": "C:\\Users\\90annlin\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
-        "packagesPath": "C:\\Users\\90annlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90annlin\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\obj\\",
+        "projectPath": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\PhotoShopLite.csproj",
+        "packagesPath": "C:\\Users\\lindq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lindq\\Documents\\GitHub\\School-Projects\\PhotoShopLite\\PhotoShopLite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\90annlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lindq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
